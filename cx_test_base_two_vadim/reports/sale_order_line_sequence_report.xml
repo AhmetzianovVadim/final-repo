@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="sale_report_inherit" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//th[@name='th_description']" position="before">
+            <th name="tr_order_line_number" class="text-left">Sequence</th>
+        </xpath>
+        <xpath expr="//td[@name='td_name']" position="before">
+            <td name="td_order_line_number">
+                <span t-field="line.order_line_number" />
+            </td>
+        </xpath>
+    </template>
+</odoo>
