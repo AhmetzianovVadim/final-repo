@@ -5,6 +5,9 @@
     "website": "https://cetmix.com",
     "author": "ahmetzianovvadim",
     "license": "LGPL-3",
-    "depends": ["base"],
-    "data": [],
+    "depends": ["sale"],
+    "data": [
+        "views/sale_order_line_sequence.xml",
+        "reports/sale_order_line_sequence_report.xml",
+    ],
 }
