@@ -8,6 +8,7 @@
     "depends": ["sale"],
     "data": [
         "views/sale_order_line_sequence.xml",
+        "views/sale_order_line_show_all.xml",
         "reports/sale_order_line_sequence_report.xml",
     ],
 }
